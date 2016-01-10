@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="todoapp.scenes.login.LoginSceneController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f0f0f0;">
+         <children>
+            <TextField fx:id="tfUserName" layoutX="226.0" layoutY="160.0" promptText="Nazwa użytkownika" />
+            <PasswordField fx:id="pfPassword" layoutX="226.0" layoutY="190.0" promptText="Hasło" />
+            <Label layoutX="263.0" layoutY="100.0" text="Witaj">
+               <font>
+                  <Font name="Roboto Regular" size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnSignIn" layoutX="226.0" layoutY="235.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Zaloguj" />
+            <Hyperlink fx:id="hlSignUp" layoutX="295.0" layoutY="271.0" text="Zarejestruj się">
+               <font>
+                  <Font name="Roboto Regular" size="12.0" />
+               </font></Hyperlink>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
